@@ -1,6 +1,6 @@
 # Llama.cpp Sample
 
-This is a sample boilerplate application that shows how to include and link llama.cpp in any C++ application. It is based on the simple example from llama.cpp.
+This is a sample boilerplate application that shows how to include and link llama.cpp in any C++ application. It is based on the simple example from llama.cpp and was used as part of my Medium article [The Resurgence of C++ through Llama.cpp, CUDA & Metal](https://medium.com/@jankammerath/the-resurgence-of-c-through-llama-cpp-cuda-metal-8d2322cd8ded).
 
 ## Building llama.cpp
 
