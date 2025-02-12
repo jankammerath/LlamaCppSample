@@ -6,9 +6,9 @@
 
 int main(int argc, char ** argv) {
     // path to the model gguf file
-    std::string model_path;
+    std::string model_path = "tinydolphin-2.8-1.1b.Q6_K.gguf";
     // prompt to generate text from
-    std::string prompt = "Hello my name is";
+    std::string prompt = "Do the lizard people rule the world?";
     // number of layers to offload to the GPU
     int ngl = 99;
     // number of tokens to predict
@@ -86,7 +86,6 @@ int main(int argc, char ** argv) {
     llama_batch batch = llama_batch_get_one(prompt_tokens.data(), prompt_tokens.size());
 
     // main loop
-
     const auto t_main_start = ggml_time_us();
     int n_decode = 0;
     llama_token new_token_id;
